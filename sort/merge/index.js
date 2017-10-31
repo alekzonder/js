@@ -9,8 +9,8 @@ module.exports = function mergeSort(arr) {
         let a = arr.slice(0, slice);
         let b = arr.slice(slice);
 
-        a = (this) ? this.mergeSort(a) : mergeSort(a);
-        b = (this) ? this.mergeSort(b) : mergeSort(b);
+        a = mergeSort.call(this, a);
+        b = mergeSort.call(this, b);
 
         var result = [];
 

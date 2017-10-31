@@ -15,3 +15,20 @@ n =  10
 O(n * log2(n)) = 33
 iterationCount = 25
 ```
+
+
+## sort/qsort
+
+[sort/qsort/index.js](sort/qsort/index.js)
+
+```
+$ node sort/qsort/example.js
+
+input  = [ 784, 514, 222, 679, 433, 740, 940, 909, 548, 943 ]
+valid  = [ 222, 433, 514, 548, 679, 740, 784, 909, 940, 943 ]
+output = [ 222, 433, 514, 548, 679, 740, 784, 909, 940, 943 ]
+
+n =  10
+O(n * log2(n)) = 33
+iterationCount = 27
+```
