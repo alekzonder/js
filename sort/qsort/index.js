@@ -1,5 +1,5 @@
 module.exports = function qsort(a, p, r) {
-    if (typeof p === 'undefined' && typeof r == 'undefined') {
+    if (typeof p === 'undefined' && typeof r === 'undefined') {
         p = 0;
         r = a.length - 1;
     }

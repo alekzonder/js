@@ -1,5 +1,5 @@
 module.exports = function mergeSort(arr) {
-        if (arr.length == 1) {
+        if (arr.length === 1) {
             return arr;
         }
 
